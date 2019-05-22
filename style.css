@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+
+}
+
+.parent{
+    width: 700px;
+    height: 500px;
+    background-color: #908780;
+    border: 2px solid #504f47f0;
+    position: relative;
+}
+
+.child{
+    width: 150px;
+    height: 120px;
+    position: absolute;
+}
+
+.child:first-child{
+    background-color: #e0dfdd;
+    top: 0px;
+    left: 0px;
+}
+
+.child:last-child{
+    background-color: #e0dfdd;
+    top: 0px;
+    right: 0px;
+}
+
+.child:nth-child(2){
+    background-color: #e0dfdd;
+    right: 0px;
+    bottom: 0px;
+
+}
+.child:nth-child(3){
+    background-color: #e0dfdd;
+    left: 0px;
+    bottom: 0px;
+
+}
